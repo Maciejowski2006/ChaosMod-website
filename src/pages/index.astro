@@ -1,0 +1,41 @@
+---
+// Component Imports
+import Navbar from '../components/Navbar.svelte';
+import Card from '../components/Card.svelte';
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content="Chaos Mod is a plugin for SCP: Secret Laboratory inspired by GTA SA/V Chaos Mod. Every minute it adds a new modifier to the game, and removes previous one making it more fun for people looking for something new." />
+		<meta name="keywords" content="scp, scpsl, scp sl, scp secret laboratory, scp sl mod scp sl chaos mod, scp sl plugin, scp-sl plugin, scpsl plugin" />
+		<meta name="author" content="Maciejowski" />
+		<title>Chaos Mod for SCP: SL</title>
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<style lang="scss">
+		    @use '../styles/global.scss';
+		    main {
+		        max-width: 60rem;
+		        margin-inline: auto;
+		    }
+		</style>
+	</head>
+	<body>
+	    <Navbar />
+		<main>
+			<Card>
+			    <h2>What even is that?</h2>
+                	<p>Chaos Mod is a plugin for SCP: Secret Laboratory inspired by GTA SA/V Chaos Mod. Every minute it adds a new modifier to the game, and removes previous one making it more fun for people looking for something new.</p>
+			</Card>
+			<Card>
+            	<h2>Modifiers</h2>
+                <p>Modifiers are rolled every minute after the round has started. After a minute the previous one is removed and another is rolled. Some might help you, and some might help your enemies.</p>
+                <p>
+                </p>
+            </Card>
+		</main>
+	</body>
+</html>
