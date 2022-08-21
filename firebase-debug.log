@@ -1,0 +1,22 @@
+[debug] [2022-08-21T19:40:20.792Z] ----------------------------------------------------------------------
+[debug] [2022-08-21T19:40:20.794Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-21T19:40:20.795Z] CLI Version:   11.7.0
+[debug] [2022-08-21T19:40:20.795Z] Platform:      win32
+[debug] [2022-08-21T19:40:20.795Z] Node Version:  v16.14.0
+[debug] [2022-08-21T19:40:20.797Z] Time:          Sun Aug 21 2022 21:40:20 GMT+0200 (czas środkowoeuropejski letni)
+[debug] [2022-08-21T19:40:20.797Z] ----------------------------------------------------------------------
+[debug] 
+[warn] !  JSON error trying to load C:\Users\Maciej\Desktop\sites\ChaosMod\.firebaserc 
+[debug] [2022-08-21T19:40:20.811Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-21T19:40:20.811Z] > authorizing via signed-in user (maciejowski2006yt@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Maciej\Desktop\sites\ChaosMod
+

@@ -1,0 +1,20 @@
+@use '../styles/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+body {
+	font-family: 'Nunito', sans-serif;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: utilities.$dark;
+	color: utilities.$white;
+}
+a, a:hover, a:visited {
+	color: utilities.$primary;
+	text-decoration: none;
+	
+	&:hover {
+		color: utilities.$secondary;
+		text-decoration: underline solid 1px utilities.$secondary;
+		text-underline-offset: 8px;
+	}
+}

@@ -17,6 +17,7 @@ import Card from '../components/Card.svelte';
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 		<style lang="scss">
 		    @use '../styles/global.scss';
+		    @use '../styles/utilities.scss';
 		    main {
 		        max-width: 60rem;
 		        margin-inline: auto;
@@ -33,9 +34,11 @@ import Card from '../components/Card.svelte';
 			<Card>
             	<h2>Modifiers</h2>
                 <p>Modifiers are rolled every minute after the round has started. After a minute the previous one is removed and another is rolled. Some might help you, and some might help your enemies.</p>
-                <p>
-                </p>
             </Card>
+            <Card>
+                <h2>Download & Installation</h2>
+                <p>All of the instructions are described <a href="https://github.com/Maciejowski2006/SCPSL_ChaosMod/">here</a></p>
+			</Card>
 		</main>
 	</body>
 </html>
